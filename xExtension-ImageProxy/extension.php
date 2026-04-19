@@ -19,7 +19,8 @@ final class ImageProxyExtension extends Minz_Extension {
 		if (!FreshRSS_Context::hasSystemConf()) {
 			throw new FreshRSS_Context_Exception('System configuration not initialised!');
 		}
-		$this->registerHook('entry_before_display', [self::class, 'setImageProxyHook']);
+		// $this->registerHook('entry_before_display', [self::class, 'setImageProxyHook']);
+		$this->registerHook('entry_before_insert', [self::class, 'setImageProxyHook']);
 		// Defaults
 		$save = false;
 		if (FreshRSS_Context::userConf()->attributeString('image_proxy_url') == null) {
