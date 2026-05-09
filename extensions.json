@@ -5,7 +5,7 @@
             "name": "AI Summary",
             "author": "Pierre Mavro",
             "description": "Summarize articles using AI providers (Gemini, Claude, ChatGPT, Ollama)",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "entrypoint": "AiSummary",
             "type": "user",
             "url": "https://github.com/deimosfr/xExtension-AiSummary",
@@ -310,6 +310,17 @@
             "directory": "xExtension-KeepFolderState"
         },
         {
+            "name": "LLM Classification",
+            "author": "Alkarex",
+            "description": "Tag incoming articles by calling an OpenAI-compatible LLM API",
+            "version": "0.1",
+            "entrypoint": "LlmClassification",
+            "type": "user",
+            "url": "https://github.com/FreshRSS/Extensions",
+            "method": "git",
+            "directory": "xExtension-LlmClassification"
+        },
+        {
             "name": "LaTeX support",
             "author": "Alexis Degrugillier",
             "description": "Add support for LaTeX notation rendering",
@@ -434,7 +445,7 @@
             "name": "Readeck Button",
             "author": "Joedmin",
             "description": "Add articles to Readeck with one simple button click or a keyboard shortcut.",
-            "version": "0.12",
+            "version": "0.14",
             "entrypoint": "ReadeckButton",
             "type": "user",
             "url": "https://github.com/Joedmin/xExtension-readeck-button",
@@ -684,6 +695,17 @@
             "directory": "."
         },
         {
+            "name": "Webhook",
+            "author": "Lukas Melega, Ryahn",
+            "description": "Send custom webhook when new article appears (and matches custom criteria)",
+            "version": "0.2.0",
+            "entrypoint": "Webhook",
+            "type": "user",
+            "url": "https://github.com/FreshRSS/Extensions",
+            "method": "git",
+            "directory": "xExtension-Webhook"
+        },
+        {
             "name": "White List",
             "author": "Alexis Degrugillier",
             "description": "White list the accessible feeds to users",
@@ -742,7 +764,7 @@
             "name": "Youlag",
             "author": "civilblur",
             "description": "Browse YouTube and articles feeds through a modern interface that incorporates quality-of-life features.",
-            "version": "4.3.0",
+            "version": "4.4.0",
             "entrypoint": "Youlag",
             "type": "user",
             "url": "https://github.com/civilblur/youlag",
